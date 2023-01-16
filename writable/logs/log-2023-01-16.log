@@ -1,0 +1,26 @@
+CRITICAL - 2023-01-16 07:39:33 --> Invalid file: login.php
+#0 C:\xampp\htdocs\AP_2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\AP_2\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\AP_2\app\Controllers\Login.php(46): view('login')
+#3 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(832): App\Controllers\Login->process()
+#4 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AP_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\AP_2\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-16 16:08:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\AP_2\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\AP_2\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2023-01-16 10:06:27 --> Invalid file: user_page.php
+#0 C:\xampp\htdocs\AP_2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_page.php')
+#1 C:\xampp\htdocs\AP_2\system\Common.php(1089): CodeIgniter\View\View->render('user_page', Array, true)
+#2 C:\xampp\htdocs\AP_2\app\Controllers\Login.php(46): view('user_page')
+#3 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(832): App\Controllers\Login->process()
+#4 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\AP_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\AP_2\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

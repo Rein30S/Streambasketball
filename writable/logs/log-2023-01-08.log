@@ -1,0 +1,8 @@
+CRITICAL - 2023-01-08 00:42:16 --> Undefined variable $soutes
+#0 C:\xampp\htdocs\AP_2\app\Config\Routes.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(713): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\AP_2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\AP_2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\AP_2\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
